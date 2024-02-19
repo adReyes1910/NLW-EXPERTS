@@ -1,11 +1,11 @@
 // Estrutura de objetos
 const perguntas = [
   {
-    pergunta: "Qual é o nome da protagonista humana da série Monster High?",
+    pergunta: "Qual é o nome da escola frequentada pelos monstros em Monster High?",
     respostas: [
-      "Draculaura",
-      "Frankie Stein",
-      "Cleo de Nile"
+      "Escola Noturna",
+      "Escola de Monstros",
+      "Monster High",
     ],
     CORRETA: 1 // Frankie Stein
   },
