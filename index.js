@@ -1,97 +1,96 @@
 // Estrutura de objetos
 const perguntas = [
   {
-    pergunta: "Qual é o nome da escola frequentada pelos monstros em Monster High?",
+   pergunta: "Qual é a palavra-chave usada para declarar uma variável em JavaScript?",
     respostas: [
-      "Escola Noturna",
-      "Escola de Monstros",
-      "Monster High",
+      "var",
+      "let",
+      "const",
     ],
-    CORRETA: 1 // Frankie Stein
+    CORRETA: 2
   },
   {
-    pergunta: "Qual é a filha do Conde Drácula em Monster High?",
+    pergunta: "Qual método é usado para imprimir algo no console em JavaScript?",
     respostas: [
-      "Frankie Stein",
-      "Draculaura",
-      "Lagoona Blue"
+      "print()",
+      "log()",
+      "console.log()",
     ],
-    CORRETA: 1 // Draculaura
+    CORRETA: 2
   },
   {
-    pergunta: "Qual é o nome da escola frequentada pelos monstros em Monster High?",
+    pergunta: "Qual símbolo é usado para comentários de uma linha em JavaScript?",
     respostas: [
-      "Escola Noturna",
-      "Escola de Monstros",
-      "Monster High"
+      "//",
+      "/* */",
+      "#",
     ],
-    CORRETA: 2 // Monster High
+    CORRETA: 0
   },
   {
-    pergunta: "Quem é conhecido como 'O Monstro da Lagoa' em Monster High?",
+    pergunta: "Qual é a função usada para converter uma string em um número em JavaScript?",
     respostas: [
-      "Frankie Stein",
-      "Lagoona Blue",
-      "Clawdeen Wolf"
+      "parseString()",
+      "parseInt()",
+      "convertToNumber()",
     ],
-    CORRETA: 1 // Lagoona Blue
+    CORRETA: 1
   },
   {
-    pergunta: "Qual é a filha do Lobisomem em Monster High?",
+    pergunta: "Qual operador é usado para comparar igualdade em valor e tipo em JavaScript?",
     respostas: [
-      "Draculaura",
-      "Clawdeen Wolf",
-      "Ghoulia Yelps"
+      "==",
+      "===",
+      "=",
     ],
-    CORRETA: 1 // Clawdeen Wolf
+    CORRETA: 1
   },
   {
-    pergunta: "Quem é a filha de um zumbi em Monster High?",
+    pergunta: "Qual método é usado para adicionar um elemento ao final de um array em JavaScript?",
     respostas: [
-      "Ghoulia Yelps",
-      "Cleo de Nile",
-      "Lagoona Blue"
+      "push()",
+      "addToEnd()",
+      "append()",
     ],
-    CORRETA: 0 // Ghoulia Yelps
+    CORRETA: 0
   },
   {
-    pergunta: "Qual é a filha da Múmia em Monster High?",
+    pergunta: "Qual é o resultado de 5 + '3' em JavaScript?",
     respostas: [
-      "Cleo de Nile",
-      "Draculaura",
-      "Frankie Stein"
+      "8",
+      "53",
+      "NaN",
     ],
-    CORRETA: 0 // Cleo de Nile
+    CORRETA: 1
   },
   {
-    pergunta: "Qual é o nome da filha do Fantasma em Monster High?",
+    pergunta: "Qual é o tipo de dado de uma variável que não foi atribuído a um valor em JavaScript?",
     respostas: [
-      "Cleo de Nile",
-      "Ghoulia Yelps",
-      "Spectra Vondergeist"
+      "undefined",
+      "null",
+      "empty",
     ],
-    CORRETA: 2 // Spectra Vondergeist
+    CORRETA: 0
   },
   {
-    pergunta: "Quem é conhecido como 'A Górgona' em Monster High?",
+    pergunta: "Qual método é usado para remover o último elemento de um array em JavaScript?",
     respostas: [
-      "Lagoona Blue",
-      "Cleo de Nile",
-      "Deuce Gorgon"
+      "removeLast()",
+      "pop()",
+      "deleteLast()",
     ],
-    CORRETA: 2 // Deuce Gorgon
+    CORRETA: 1
   },
   {
-    pergunta: "Qual é a filha do Monstro do Mar em Monster High?",
+    pergunta: "Qual símbolo é usado para acessar propriedades de um objeto em JavaScript?",
     respostas: [
-      "Lagoona Blue",
-      "Spectra Vondergeist",
-      "Clawdeen Wolf"
+      ".",
+      "->",
+      "::",
     ],
-    CORRETA: 0 // Lagoona Blue
+    CORRETA: 0
   }
 ];
-
   //procurar a base do html (quiz{procura o ID /template(procura as tags html))
   const quiz =document.querySelector('#quiz')
   const template = document.querySelector('template')
